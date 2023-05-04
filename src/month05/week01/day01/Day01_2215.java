@@ -54,11 +54,4 @@ public class Day01_2215 {
         }
         return list;
     }
-
-    public static void main(String[] args) {
-        int[] nums1 = {1, 2, 3, 3};
-        int[] nums2 = {1, 1, 2, 2};
-        List<List<Integer>> res = new Day01_2215().findDifference(nums1, nums2);
-        System.out.println(res);
-    }
 }
