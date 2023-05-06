@@ -1,7 +1,5 @@
-package month05.week01;
+package month05.week01.day03;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 /*
@@ -22,7 +20,7 @@ import java.util.Stack;
 输入：s = "3[a2[c]]"
 输出："accaccacc"
 */
-public class Day05_394 {
+public class Day03_394 {
     public String decodeString(String s) {
         //res=last_res+multi*res;
         StringBuilder res = new StringBuilder();
@@ -58,7 +56,7 @@ public class Day05_394 {
     }
 
     public static void main(String[] args) {
-        String res = new Day05_394().decodeString("23[a]56[b]89[c]");
+        String res = new Day03_394().decodeString("23[a]56[b]89[c]");
         System.out.println(res);
     }
 }
