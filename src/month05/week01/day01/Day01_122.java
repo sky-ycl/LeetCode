@@ -29,7 +29,7 @@ public class Day01_122 {
         int n = prices.length;
         int[][] dp=new int[n][2];
         //初始化
-        dp[0][0]=prices[0];
+        dp[0][0]=-prices[0];
         dp[0][1]=0;
         //dp[i][0]表示持有股票的最大金额
         //dp[i][1]表示不持有股票的最大金额
