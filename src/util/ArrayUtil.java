@@ -1,6 +1,7 @@
 package util;
 
 import org.junit.Test;
+import sort.SelectSort;
 
 import java.util.Random;
 
@@ -49,6 +50,26 @@ public class ArrayUtil {
         int temp=nums[j];
         nums[j]=nums[i];
         nums[i]=temp;
+    }
+
+
+    /**
+     * 测试数组(随机生成100个数小大为100的数组)
+     * @return
+     */
+    public static  boolean testSort(){
+        for (int i = 0; i < 100; i++) {
+            int[] nums = ArrayUtil.createArray(100);
+            int n=nums.length;
+            new SelectSort().selectSort(nums);
+            for (int j = 0; j < n-1; j++) {
+                if(nums[j]>nums[j+1]){
+                    System.out.println(ArrayUtil.toString(nums));
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
 
