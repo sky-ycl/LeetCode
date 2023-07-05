@@ -34,4 +34,8 @@ public class Day01_Offer36 {
         pre=root;
         dfs(root.right);
     }
+
+    public static void main(String[] args) {
+        System.out.println("分支");
+    }
 }
