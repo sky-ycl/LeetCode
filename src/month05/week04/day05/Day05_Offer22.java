@@ -6,7 +6,7 @@ public class Day05_Offer22 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         //获取链表的长度
         int len = 0;
-        ListNode cur = head;
+        ListNode cur =  head;
         while ( cur != null){
             len++;
             cur=cur.next;
