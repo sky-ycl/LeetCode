@@ -1,4 +1,4 @@
-package month07.week01;
+package month07.week01.day01;
 
 import node.treeNode.TreeNode;
 

@@ -1,9 +1,7 @@
-package month07.week01;
+package month07.week01.day01;
 
 import node.treeNode.TreeNode;
 import node.treeNode.utils.TreeNodeUtil;
-
-import java.util.*;
 
 /*
 给定一棵二叉搜索树，请找出其中第 k 大的节点的值。

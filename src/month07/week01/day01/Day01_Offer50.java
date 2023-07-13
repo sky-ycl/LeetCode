@@ -1,8 +1,4 @@
-package month07.week01;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+package month07.week01.day01;
 
 public class Day01_Offer50 {
     public char firstUniqChar(String s) {
