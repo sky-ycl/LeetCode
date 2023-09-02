@@ -1,7 +1,12 @@
 package study;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Demo1 {
+    private static final List<Integer> list=new ArrayList<>();
+
     public static boolean show(String str,String str1){
         char []s1=str.toCharArray();
         char []s2=str1.toCharArray();
